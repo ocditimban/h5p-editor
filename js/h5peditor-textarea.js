@@ -4,7 +4,6 @@ var H5PEditor = H5PEditor || {};
 H5PEditor.Textarea = (function ($) {
 
   /**
-   * Construct a none from library semantics.
    * Create a text field for the form.
    *
    * @param {mixed} parent
