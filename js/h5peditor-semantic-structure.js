@@ -275,4 +275,4 @@ H5PEditor.SemanticStructure = (function ($) {
   var CLASS_WIDGET_ACTIVE = 'h5peditor-widget-active';
 
   return SemanticStructure;
-})(H5P.jQuery);
+})(jQuery);
