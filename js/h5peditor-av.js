@@ -313,4 +313,4 @@ H5PEditor.widgets.video = H5PEditor.widgets.audio = H5PEditor.AV = (function ($)
   }];
 
   return C;
-})(H5P.jQuery);
+})(jQuery);
