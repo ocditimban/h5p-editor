@@ -94,4 +94,4 @@ H5PEditor.widgets.select = H5PEditor.Select = (function (E) {
   };
 
   return C;
-})(H5PEditor);
+})(jQuery);
