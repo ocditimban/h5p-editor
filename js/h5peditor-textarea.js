@@ -1,7 +1,7 @@
 // DEPRECATED: This widget will be removed and replaced with the HTML widget
 var H5PEditor = H5PEditor || {};
 
-H5PEditor.Textarea = (function ($) {
+H5PEditor.Textarea = (function ($, H5P) {
 
   /**
    * Create a text field for the form.
@@ -87,7 +87,7 @@ H5PEditor.Textarea = (function ($) {
     this.$item.remove();
   };
 
-}(jQuery));
+}(jQuery, H5P));
 
 // Tell the editor what semantic field we are.
 H5PEditor.widgets.textarea = H5PEditor.Textarea;
