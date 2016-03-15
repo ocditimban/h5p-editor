@@ -266,4 +266,4 @@ H5PEditor.ListEditor = (function ($) {
   }
 
   return ListEditor;
-})(H5P.jQuery);
+})(jQuery);
