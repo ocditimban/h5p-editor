@@ -52,8 +52,9 @@ H5PEditor.None = (function ($) {
    * Remove this item.
    */
   WidgetNone.prototype.remove = function () {
-    removeChildren(this.children);
+    H5PEditor.removeChildrenH5PEditor.widgets.boolean = H5PEditor.Boolean;(this.children);
   };
 
-  ns.widgets.none = WidgetNone;
-});
+}(jQuery));
+
+H5PEditor.widgets.none = H5PEditor.None;
