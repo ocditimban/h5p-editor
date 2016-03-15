@@ -27,7 +27,7 @@ H5PEditor.Text = (function ($, H5P) {
   WidgetText.prototype.appendTo = function ($wrapper) {
     var that = this;
 
-    this.$item = H5PEditor.$(this.createHtml()).appendTo($wrapper);
+    this.$item = $(this.createHtml()).appendTo($wrapper);
     this.$input = this.$item.children('label').children('input');
     this.$errors = this.$item.children('.h5p-errors');
 
