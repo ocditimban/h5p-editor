@@ -319,7 +319,7 @@ H5PEditor.List = (function ($) {
   List.prototype.constructor = List;
 
   return List;
-})(H5P.jQuery);
+})(jQuery);
 
 // Register widget
 H5PEditor.widgets.list = H5PEditor.List;
