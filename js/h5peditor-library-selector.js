@@ -1,5 +1,4 @@
 var H5PEditor = H5PEditor || {};
-var ns = H5PEditor;
 
 H5PEditor.LibrarySelector = (function ($) {
 
@@ -98,7 +97,7 @@ H5PEditor.LibrarySelector = (function ($) {
     this.$selector.appendTo($element);
     this.$tutorialUrl.appendTo($element);
 
-    $element.append('<div class="h5p-more-libraries">' + ns.t('core', 'moreLibraries') + '</div>');
+    $element.append('<div class="h5p-more-libraries">' + H5PEditor.t('core', 'moreLibraries') + '</div>');
   };
 
   /**
@@ -123,7 +122,7 @@ H5PEditor.LibrarySelector = (function ($) {
     this.$parent.attr('class', 'h5peditor ' + library.split(' ')[0].toLowerCase().replace('.', '-') + '-editor');
 
     // Display loading message
-    var $loading = $('<div class="h5peditor-loading h5p-throbber">' + ns.t('core', 'loading', {':type': 'semantics'}) + '</div>').appendTo(this.$parent);
+    var $loading = $('<div class="h5peditor-loading h5p-throbber">' + H5PEditor.t('core', 'loading', {':type': 'semantics'}) + '</div>').appendTo(this.$parent);
 
     this.$selector.attr('disabled', true);
 
@@ -168,7 +167,7 @@ H5PEditor.LibrarySelector = (function ($) {
     //return valid ? this.form.params : false;
     return this.form.params; // TODO: Switch to the line above when we are able to tell the user where the validation fails
   };
-  
+
 }(jQuery));
 
 
