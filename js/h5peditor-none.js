@@ -1,11 +1,9 @@
 var H5PEditor = H5PEditor || {};
 
-/**
- * Construct a none from library semantics.
- */
 H5PEditor.None = (function ($) {
   
   /**
+   * Construct a none from library semantics.
    * Create a field without html
    * 
    * @param {mixed} parent
@@ -52,7 +50,7 @@ H5PEditor.None = (function ($) {
    * Remove this item.
    */
   WidgetNone.prototype.remove = function () {
-    H5PEditor.removeChildrenH5PEditor.widgets.boolean = H5PEditor.Boolean;(this.children);
+    H5PEditor.removeChildren(this.children);
   };
 
 }(jQuery));
